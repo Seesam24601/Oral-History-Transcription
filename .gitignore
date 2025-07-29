@@ -1,0 +1,10 @@
+# Ignore all files in the data folder
+# This prevents documents being transcribed from being tracked by git
+data/*
+
+# Ignore all files in the output folder
+# This prevents transcriptions from being tracked by git
+output/*
+
+# Ignore pycache (obviously)
+__pycache__/*
